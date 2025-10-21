@@ -13,7 +13,7 @@
    Returns primary and secondary phonetic keys for English words.  Useful for
    fuzzy matching, search indexing, and linguistic experiments.  Includes
    a complete FiveAM test suite."
-  :author "Dan S. Camper"
+  :author "Dan S. Camper <dan@bti.net>"
   :license "Apache 2.0"
   :version "0.1.0"
   :homepage "https://github.com/dancamper/cl-double-metaphone"
@@ -28,7 +28,7 @@
 
 (asdf:defsystem "cl-double-metaphone/tests"
   :description "FiveAM test suite for cl-double-metaphone."
-  :author "Dan S. Camper"
+  :author "Dan S. Camper <dan@bti.net>"
   :license "Apache 2.0"
   :depends-on ("cl-double-metaphone" "fiveam")
   :components ((:file "double-metaphone-tests"))
