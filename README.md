@@ -29,10 +29,19 @@ homophone pairs.
 
 ## 📦 Installation
 
-Clone or download the repository and load it with ASDF:
+Available in QuickLisp:
 
 ```lisp
-(ql:quickload "cl-double-metaphone")
+CL-USER> (ql:quickload "cl-double-metaphone")
+```
+
+Alternatively, you can clone the repo locally first:
+
+```lisp
+cd ~/quicklisp/local-projects/
+git clone https://github.com/dancamper/cl-double-metaphone.git
+
+CL-USER> (ql:quickload "cl-double-metaphone")
 ```
 
 ---
